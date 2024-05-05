@@ -1,0 +1,120 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: black;
+    margin: auto;
+}
+
+#barra-navegacao {
+    position: fixed;
+    top: 0px;
+    margin-top: 10px;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+#nav-bar {
+    background-color: rgb(0, 174, 255);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    width: 90%;
+    border-radius: 20px;
+
+}
+
+#pesquisa {
+    margin: auto;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 500px;
+    border-radius: 15px;
+    height: 35px;
+
+}
+
+.icon-pesquisa {
+    width: 40px;
+}
+
+.logo {
+    width: 90px;
+}
+
+.container-cadastro-contato {
+    display: flex;
+    width: 200px;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+.container-cadastro-contato :hover {
+    background-color: black;
+    transition: 1s;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.icon-persona {
+    width: 80px;
+}
+
+.icon-telefone {
+    width: 40px;
+}
+
+.icon-carrinho {
+    width: 40px;
+}
+
+#container {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 150px;
+}
+
+.banner {
+    width: 350px;
+}
+
+#info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    color: white;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.image-treino {
+    width: 40%;
+    float: right;
+}
+
+#selo {
+    display: flex;
+    width: 100%;
+    margin: 90px;
+}
+
+#image-selo {
+    width: 50%;
+    margin: auto;
+}
+
+.informacao{
+    text-align: justify;
+    margin-right: 30px;
+}
